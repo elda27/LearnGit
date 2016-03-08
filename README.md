@@ -66,6 +66,21 @@
 `git checkout new-feature`
 
 さて，ここまででbranchの切り替えを行いましたので，何か変更を加えて変更をpushまでしたいと思います．
-リモートリポジトリへのpushは先に説明していますが以下のコマンドです．重要なところは，第三引数がmasterではなく，branch名である"new-feature"を選んでやります．
+リモートリポジトリへのpushは先に説明していますが以下のコマンドです．
+
+`git push origin new-feature`
+
+重要なところは，第三引数がmasterではなく，branch名である"new-feature"を選んでやるところです．
 
 
+## branchのマージ
+次に，これまでに作成したリポジトリをmasterブランチに統合します．  
+まず，マージしたいbranchに切り替えます．
+
+`git checkout master`
+
+そして以下のコマンドを用いてnew-featureをmasterにマージします
+
+`git merge new-feature`
+
+するとファイルの内容が統合されているかと思います．
