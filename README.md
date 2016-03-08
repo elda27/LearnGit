@@ -9,10 +9,10 @@
 今回は，"LICENSE"と"README．md"をそれぞれ別のコミットで追加していきます．
 実行するコマンドは以下のとおりです．
 
-`git add LICENSE`
-`git commit -m "[Add]:LICENSE"`
-`git add README．md`
-`git commit -m "[Add]:Add README"`
+`git add LICENSE`  
+`git commit -m "[Add]:LICENSE"`  
+`git add README．md`  
+`git commit -m "[Add]:Add README"`  
 
 ここで，`git add`は任意のファイルをバージョン管理に追加し，`git commit`で現状，追加されているファイルを記録します．  
 その際，`-m`オプションを与えると，そのコミットに対してメッセージを入力することができます．  
