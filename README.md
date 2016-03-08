@@ -27,11 +27,11 @@
 
 ここで，URLですがgithubに新しいリポジトリを作りたい場合は以下のようになります．
 
-`https://www．github．com/<ユーザー名>/<リポジトリ名>`
+`https://github.com/<ユーザー名>/<リポジトリ名>`
 
 今回，私が作成するに本リポジトリを作成するうえで使ったのが以下のコマンド
 
-`git remote add origin https://github．com/elda27/LearnGit`
+`git remote add origin https://github.com/elda27/LearnGit`
 
 ここでoriginはgitにおいて，デフォルトのリモートリポジトリの名前として慣例的に使われている名前なので，とりあえず最初に追加するリポジトリはこの名前にしておけばよいかと思います．  
 もし，短縮名やURLを間違えた場合は以下のコマンドでリモートリポジトリを削除可能になっています．  
